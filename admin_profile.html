@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Profile | THE INTEL</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .profile-card { 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 min-h-screen transition-colors duration-300">
+    
+    <!-- Navigation Back to Main Site -->
+    <nav class="bg-white dark:bg-gray-800 shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <div class="w-8 h-8 bg-gray-900 rounded-lg flex items-center justify-center text-amber-500 font-bold text-xl dark:bg-gray-700">
+                    <i class="fas fa-dollar-sign"></i>
+                </div>
+                <a href="index.html" class="font-bold text-xl text-gray-900 dark:text-white">The<span class="text-amber-500">Intel</span></a>
+            </div>
+            <a href="index.html" class="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white">
+                <i class="fas fa-arrow-left mr-2"></i> Back to Site
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Profile Content -->
+    <main class="max-w-4xl mx-auto px-4 py-12">
+        <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-xl overflow-hidden">
+            <!-- Profile Header -->
+            <div class="profile-card p-8 text-white text-center">
+                <div class="w-32 h-32 mx-auto mb-6 rounded-full border-4 border-white/30 overflow-hidden bg-gray-200">
+                    <img src="photos/the intel profile.jpg" 
+                         alt="THE INTEL" class="w-full h-full object-cover">
+                </div>
+                <h1 class="text-3xl font-bold">THE INTEL</h1>
+                <p class="text-lg opacity-90 mt-2"> Forex Trader & Analyst</p>
+                <div class="flex justify-center gap-4 mt-4">
+                    <span class="px-3 py-1 bg-white/20 rounded-full text-sm">Experience</span>
+                    <span class="px-3 py-1 bg-white/20 rounded-full text-sm">Analysis</span>
+                    <span class="px-3 py-1 bg-white/20 rounded-full text-sm">Continous Learning</span>
+                </div>
+            </div>
+
+            <!-- Profile Details -->
+            <div class="p-8">
+                <!-- Bio Section -->
+                <div class="mb-8">
+                    <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">About Me</h2>
+                    <p class="text-gray-600 dark:text-gray-300 leading-relaxed">
+                        Whatsup, traders! im THE INTEL-Trader&Educator. 
+                        I trade using ICT concepts & candle logic(CRT, Time&Price), breaking down live trades, sharing setup tutorials, and delivering market insights  experience in the Forex markets, I'm dedicated to mastering market analysis and developing on my profitable trading strategy.
+                    </p>
+                    <p class="text-gray-600 dark:text-gray-300 leading-relaxed mt-4">
+                        I specialize in technical analysis, price action trading, and risk management. My philosophy is simple: "Trade what you see, not what you think." 
+                        I believe in disciplined trading, continuous learning, and helping others achieve financial independence through proper market education.
+                    </p>
+                </div>
+
+                <!-- Expertise -->
+                <div class="mb-8">
+                    <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Areas of Expertise</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-amber-50 dark:bg-amber-900/20 p-4 rounded-lg">
+                            <h3 class="font-bold text-amber-700 dark:text-amber-300 mb-2">
+                                <i class="fas fa-chart-line mr-2"></i>Technical Analysis
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">Expert in candlestick patterns, candle logic(CRT)</p>
+                        </div>
+                        <div class="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg">
+                            <h3 class="font-bold text-blue-700 dark:text-blue-300 mb-2">
+                                <i class="fas fa-shield-alt mr-2"></i>Risk Management
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">Developing sustainable risk management strategies for long-term success</p>
+                        </div>
+                        <div class="bg-green-50 dark:bg-green-900/20 p-4 rounded-lg">
+                            <h3 class="font-bold text-green-700 dark:text-green-300 mb-2">
+                                <i class="fas fa-brain mr-2"></i>Trading Psychology
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">Mastering Trading Psychology</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trading Philosophy -->
+                <div class="mb-8">
+                    <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Trading Philosophy</h2>
+                    <div class="bg-gray-50 dark:bg-gray-700/50 p-6 rounded-xl">
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-700 dark:text-gray-300">Patience: Wait for high-probability setups</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-700 dark:text-gray-300">Risk management: Risk management is the key</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-700 dark:text-gray-300">Keep it simple: CRT in ICT is what you need</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-700 dark:text-gray-300">Continuous learning: Markets evolve, so must traders</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Social Media Links -->
+                <div class="mb-8">
+                    <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Connect With Me</h2>
+                    <div class="flex flex-wrap gap-3">
+                        <a href="https://x.com/ogjohn001?t=991tl2r0yeWEakYpujGAMQ&s=09" class="flex items-center gap-2 px-4 py-2 bg-blue-400 text-white rounded-lg hover:bg-blue-500 transition-colors">
+                            <i class="fab fa-twitter"></i> Twitter
+                         </a>
+                    </div>
+                </div>
+
+                <!-- Back to Main Site -->
+                <div class="text-center mt-8 pt-8 border-t border-gray-200 dark:border-gray-700">
+                    <a href="index.html" class="inline-flex items-center gap-2 px-6 py-3 bg-amber-500 text-white rounded-lg hover:bg-amber-600 transition-colors font-medium">
+                        <i class="fas fa-chart-line"></i>
+                        Return to The Intel Main Site
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8 mt-8">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <p>© 2024 The Intel | Forex & Finance Insights. All rights reserved.</p>
+            <p class="text-sm mt-2">This is an educational platform. Trading involves risk. Past performance is not indicative of future results.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple dark mode detection
+        if (localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        }
+    </script>
+</body>
+</html>
